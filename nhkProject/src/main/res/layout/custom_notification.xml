@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="64dp"
+    android:background="@android:color/white"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1.3"
+        android:paddingLeft="16dp"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tv_album"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:textColor="@android:color/black"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:ellipsize="marquee"
+            android:gravity="left|bottom"
+            android:textSize="18sp"
+            android:layout_marginBottom="5dp"
+            android:maxLines="1" />
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:textColor="@android:color/black"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:ellipsize="end"
+            android:gravity="left|top"
+            android:maxLines="1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/buttons_row"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/ib_previous"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            android:src="@android:drawable/ic_media_previous" />
+
+        <ImageView
+            android:id="@+id/ib_play_pause"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            android:src="@android:drawable/ic_media_play" />
+
+        <ImageView
+            android:id="@+id/ib_next"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            android:src="@android:drawable/ic_media_next" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/llMenuBorder"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/transparent_black"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/large_padding"
+        android:background="@android:color/white"
+        android:padding="1px"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/run_functionId"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="#3B5998"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:text="@string/run_function"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/browser_startId"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/button_item"
+            android:gravity="center"
+            android:text="@string/browser_start"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/file_listId"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/button_item"
+            android:gravity="center"
+            android:text="@string/list_file"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/list_audioId"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/button_item"
+            android:gravity="center"
+            android:text="@string/list_audio"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/select_show_file"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/button_item"
+            android:gravity="center"
+            android:text="@string/select_show_file"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/sort_title"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/button_item"
+            android:gravity="center"
+            android:text="@string/sort_title"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/sort_download_time"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/button_item"
+            android:gravity="center"
+            android:text="@string/sort_download_time"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/create_delete_folderId"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/button_item"
+            android:gravity="center"
+            android:text="@string/folder_process"
+            android:textColor="@android:color/black" />
+    </LinearLayout>
+
+</LinearLayout>

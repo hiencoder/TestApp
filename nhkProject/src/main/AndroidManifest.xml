@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="jp.co.marinax.fileplayer"
+    android:installLocation="internalOnly"
+    android:versionCode="6"
+    android:versionName="1.1.9" >
+
+    <uses-sdk
+        android:minSdkVersion="10"
+        android:targetSdkVersion="14" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <application
+        android:name="jp.co.marinax.fileplayer.app.MyApplication"
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/ic_app"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:theme="@android:style/Theme.Light.NoTitleBar" >
+        <activity
+            android:name="jp.co.marinax.fileplayer.ui.activity.TopActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="gogaku" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="jp.co.marinax.fileplayer.ui.activity.DisplayActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="jp.co.marinax.fileplayer.ui.activity.SelectActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="jp.co.marinax.fileplayer.ui.activity.FolderActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="jp.co.marinax.fileplayer.ui.activity.WebViewActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" >
+        </activity>
+        <activity
+            android:name="jp.co.marinax.fileplayer.ui.activity.BookMarksActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <receiver
+            android:name="jp.co.marinax.fileplayer.app.check.NetworkBroadCastReceiver"
+            android:label="NetworkBroadCastReceiver" >
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+                <action android:name="android.net.wifi.WIFI_STATE_CHANGED" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="jp.co.marinax.fileplayer.app.media.AudioIntentReceiver"
+            android:enabled="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MEDIA_BUTTON" />
+                <action android:name="jp.co.marinax.fileplayer.action.TOGGLE_PLAYBACK" />
+                <action android:name="jp.co.marinax.fileplayer.action.PLAY" />
+                <action android:name="jp.co.marinax.fileplayer.action.PAUSE" />
+                <action android:name="jp.co.marinax.fileplayer.action.NEXT" />
+                <action android:name="jp.co.marinax.fileplayer.action.PREVIOUS" />
+                <action android:name="jp.co.marinax.fileplayer.action.STOP" />
+            </intent-filter>
+        </receiver>
+
+        <service android:name="jp.co.marinax.fileplayer.app.media.AudioService" >
+            <intent-filter>
+                <action android:name="jp.co.marinax.fileplayer.action.TOGGLE_PLAYBACK" />
+                <action android:name="jp.co.marinax.fileplayer.action.PLAY" />
+                <action android:name="jp.co.marinax.fileplayer.action.PAUSE" />
+                <action android:name="jp.co.marinax.fileplayer.action.NEXT" />
+                <action android:name="jp.co.marinax.fileplayer.action.PREVIOUS" />
+                <action android:name="jp.co.marinax.fileplayer.action.STOP" />
+                <action android:name="jp.co.marinax.fileplayer.action.REWIND" />
+            </intent-filter>
+        </service>
+            
+    </application>
+
+</manifest>

@@ -1,0 +1,27 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 22
+    buildToolsVersion "28.0.0"
+
+    defaultConfig {
+        applicationId "jp.co.marinax.fileplayer"
+        minSdkVersion 10
+        targetSdkVersion 14
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+dependencies {
+    implementation project(':androidZip4j')
+    implementation 'com.android.support:support-v4:22.2.1'
+    implementation files('libs/bfj241.jar')
+    implementation files('libs/TestFlightLib.jar')
+    implementation files('libs/universal-image-loader-1.9.1.jar')
+}

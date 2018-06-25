@@ -1,0 +1,290 @@
+[
+    {
+        "merged": "D:\\Project\\nhkProject\\build\\intermediates\\res\\merged\\debug\\drawable_menu_item_border.xml.flat",
+        "source": "D:\\Project\\nhkProject\\src\\main\\res\\drawable\\menu_item_border.xml"
+    },
+    {
+        "merged": "D:\\Project\\nhkProject\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_before.png.flat",
+        "source": "D:\\Project\\nhkProject\\src\\main\\res\\drawable-xhdpi\\before.png"
+    },
+    {
+        "merged": "D:\\Project\\nhkProject\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_bookmark.png.flat",
+        "source": "D:\\Project\\nhkProject\\src\\main\\res\\drawable-xhdpi\\bookmark.png"
+    },
+    {
+        "merged": "D:\\Project\\nhkProject\\build\\intermediates\\res\\merged\\debug\\drawable_bg_bookmark.xml.flat",
+        "source": "D:\\Project\\nhkProject\\src\\main\\res\\drawable\\bg_bookmark.xml"
+    },
+    {
+        "merged": "D:\\Project\\nhkProject\\build\\intermediates\\res\\merged\\debug\\anim_slide_in_top.xml.flat",
+        "source": "D:\\Project\\nhkProject\\src\\main\\res\\anim\\slide_in_top.xml"
+    },
+    {
+        "merged": "D:\\Project\\nhkProject\\build\\intermediates\\res\\merged\\debug\\drawable_menu_border.xml.flat",
+        "source": "D:\\Project\\nhkProject\\src\\main\\res\\drawable\\menu_border.xml"
+    },
+    {
+        "merged": "D:\\Project\\nhkProject\\build\\intermediates\\res\\merged\\debug\\anim_hold.xml.flat",
+        "source": "D:\\Project\\nhkProject\\src\\main\\res\\anim\\hold.xml"
+    },
+    {
+        "merged": "D:\\Project\\nhkProject\\build\\intermediates\\res\\merged\\debug\\drawable_bg_before.xml.flat",
+        "source": "D:\\Project\\nhkProject\\src\\main\\res\\drawable\\bg_before.xml"
+    },
+    {
+        "merged": "D:\\Project\\nhkProject\\build\\intermediates\\res\\merged\\debug\\layout_progress_dialog.xml.flat",
+        "source": "D:\\Project\\nhkProject\\src\\main\\res\\layout\\progress_dialog.xml"
+    },
+    {
+        "merged": "D:\\Project\\nhkProject\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_cancel_white.png.flat",
+        "source": "D:\\Project\\nhkProject\\src\\main\\res\\drawable-xhdpi\\cancel_white.png"
+    },
+    {
+        "merged": "D:\\Project\\nhkProject\\build\\intermediates\\res\\merged\\debug\\layout_custom_notification.xml.flat",
+        "source": "D:\\Project\\nhkProject\\src\\main\\res\\layout\\custom_notification.xml"
+    },
+    {
+        "merged": "D:\\Project\\nhkProject\\build\\intermediates\\res\\merged\\debug\\layout_entity_book_mark.xml.flat",
+        "source": "D:\\Project\\nhkProject\\src\\main\\res\\layout\\entity_book_mark.xml"
+    },
+    {
+        "merged": "D:\\Project\\nhkProject\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_address_view_stop.png.flat",
+        "source": "D:\\Project\\nhkProject\\src\\main\\res\\drawable-xhdpi\\address_view_stop.png"
+    },
+    {
+        "merged": "D:\\Project\\nhkProject\\build\\intermediates\\res\\merged\\debug\\anim_slide_out_left.xml.flat",
+        "source": "D:\\Project\\nhkProject\\src\\main\\res\\anim\\slide_out_left.xml"
+    },
+    {
+        "merged": "D:\\Project\\nhkProject\\build\\intermediates\\res\\merged\\debug\\layout_menu_bottom_up.xml.flat",
+        "source": "D:\\Project\\nhkProject\\src\\main\\res\\layout\\menu_bottom_up.xml"
+    },
+    {
+        "merged": "D:\\Project\\nhkProject\\build\\intermediates\\res\\merged\\debug\\drawable_menu_item_disable.xml.flat",
+        "source": "D:\\Project\\nhkProject\\src\\main\\res\\drawable\\menu_item_disable.xml"
+    },
+    {
+        "merged": "D:\\Project\\nhkProject\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_next_in.png.flat",
+        "source": "D:\\Project\\nhkProject\\src\\main\\res\\drawable-xhdpi\\next_in.png"
+    },
+    {
+        "merged": "D:\\Project\\nhkProject\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_arrow_left.png.flat",
+        "source": "D:\\Project\\nhkProject\\src\\main\\res\\drawable-xhdpi\\arrow_left.png"
+    },
+    {
+        "merged": "D:\\Project\\nhkProject\\build\\intermediates\\res\\merged\\debug\\drawable_bg_top_web.xml.flat",
+        "source": "D:\\Project\\nhkProject\\src\\main\\res\\drawable\\bg_top_web.xml"
+    },
+    {
+        "merged": "D:\\Project\\nhkProject\\build\\intermediates\\res\\merged\\debug\\layout_entity_top.xml.flat",
+        "source": "D:\\Project\\nhkProject\\src\\main\\res\\layout\\entity_top.xml"
+    },
+    {
+        "merged": "D:\\Project\\nhkProject\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_address_view_reload.png.flat",
+        "source": "D:\\Project\\nhkProject\\src\\main\\res\\drawable-xhdpi\\address_view_reload.png"
+    },
+    {
+        "merged": "D:\\Project\\nhkProject\\build\\intermediates\\res\\merged\\debug\\layout_dialog_change_filename.xml.flat",
+        "source": "D:\\Project\\nhkProject\\src\\main\\res\\layout\\dialog_change_filename.xml"
+    },
+    {
+        "merged": "D:\\Project\\nhkProject\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_book.png.flat",
+        "source": "D:\\Project\\nhkProject\\src\\main\\res\\drawable-ldpi\\ic_book.png"
+    },
+    {
+        "merged": "D:\\Project\\nhkProject\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_overscroll_glow.png.flat",
+        "source": "D:\\Project\\nhkProject\\src\\main\\res\\drawable-ldpi\\overscroll_glow.png"
+    },
+    {
+        "merged": "D:\\Project\\nhkProject\\build\\intermediates\\res\\merged\\debug\\anim_rotate.xml.flat",
+        "source": "D:\\Project\\nhkProject\\src\\main\\res\\anim\\rotate.xml"
+    },
+    {
+        "merged": "D:\\Project\\nhkProject\\build\\intermediates\\res\\merged\\debug\\anim_slide_in_right.xml.flat",
+        "source": "D:\\Project\\nhkProject\\src\\main\\res\\anim\\slide_in_right.xml"
+    },
+    {
+        "merged": "D:\\Project\\nhkProject\\build\\intermediates\\res\\merged\\debug\\layout_entity_folder.xml.flat",
+        "source": "D:\\Project\\nhkProject\\src\\main\\res\\layout\\entity_folder.xml"
+    },
+    {
+        "merged": "D:\\Project\\nhkProject\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_arrow_right.png.flat",
+        "source": "D:\\Project\\nhkProject\\src\\main\\res\\drawable-xhdpi\\arrow_right.png"
+    },
+    {
+        "merged": "D:\\Project\\nhkProject\\build\\intermediates\\res\\merged\\debug\\anim_slide_in_left.xml.flat",
+        "source": "D:\\Project\\nhkProject\\src\\main\\res\\anim\\slide_in_left.xml"
+    },
+    {
+        "merged": "D:\\Project\\nhkProject\\build\\intermediates\\res\\merged\\debug\\layout_dialog_no_data.xml.flat",
+        "source": "D:\\Project\\nhkProject\\src\\main\\res\\layout\\dialog_no_data.xml"
+    },
+    {
+        "merged": "D:\\Project\\nhkProject\\build\\intermediates\\res\\merged\\debug\\drawable_list_item.xml.flat",
+        "source": "D:\\Project\\nhkProject\\src\\main\\res\\drawable\\list_item.xml"
+    },
+    {
+        "merged": "D:\\Project\\nhkProject\\build\\intermediates\\res\\merged\\debug\\anim_slide_in_bottom.xml.flat",
+        "source": "D:\\Project\\nhkProject\\src\\main\\res\\anim\\slide_in_bottom.xml"
+    },
+    {
+        "merged": "D:\\Project\\nhkProject\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_menu.png.flat",
+        "source": "D:\\Project\\nhkProject\\src\\main\\res\\drawable-ldpi\\ic_menu.png"
+    },
+    {
+        "merged": "D:\\Project\\nhkProject\\build\\intermediates\\res\\merged\\debug\\layout_activity_folder.xml.flat",
+        "source": "D:\\Project\\nhkProject\\src\\main\\res\\layout\\activity_folder.xml"
+    },
+    {
+        "merged": "D:\\Project\\nhkProject\\build\\intermediates\\res\\merged\\debug\\layout_entity_paging.xml.flat",
+        "source": "D:\\Project\\nhkProject\\src\\main\\res\\layout\\entity_paging.xml"
+    },
+    {
+        "merged": "D:\\Project\\nhkProject\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_presence_busy.png.flat",
+        "source": "D:\\Project\\nhkProject\\src\\main\\res\\drawable-mdpi\\presence_busy.png"
+    },
+    {
+        "merged": "D:\\Project\\nhkProject\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_next.png.flat",
+        "source": "D:\\Project\\nhkProject\\src\\main\\res\\drawable-xhdpi\\next.png"
+    },
+    {
+        "merged": "D:\\Project\\nhkProject\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_media.png.flat",
+        "source": "D:\\Project\\nhkProject\\src\\main\\res\\drawable-ldpi\\ic_media.png"
+    },
+    {
+        "merged": "D:\\Project\\nhkProject\\build\\intermediates\\res\\merged\\debug\\drawable_dialog_bg.xml.flat",
+        "source": "D:\\Project\\nhkProject\\src\\main\\res\\drawable\\dialog_bg.xml"
+    },
+    {
+        "merged": "D:\\Project\\nhkProject\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_media_pause.png.flat",
+        "source": "D:\\Project\\nhkProject\\src\\main\\res\\drawable-ldpi\\ic_media_pause.png"
+    },
+    {
+        "merged": "D:\\Project\\nhkProject\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_app.png.flat",
+        "source": "D:\\Project\\nhkProject\\src\\main\\res\\drawable-xhdpi\\ic_app.png"
+    },
+    {
+        "merged": "D:\\Project\\nhkProject\\build\\intermediates\\res\\merged\\debug\\layout_menu_dialog.xml.flat",
+        "source": "D:\\Project\\nhkProject\\src\\main\\res\\layout\\menu_dialog.xml"
+    },
+    {
+        "merged": "D:\\Project\\nhkProject\\build\\intermediates\\res\\merged\\debug\\layout_activity_book_mark.xml.flat",
+        "source": "D:\\Project\\nhkProject\\src\\main\\res\\layout\\activity_book_mark.xml"
+    },
+    {
+        "merged": "D:\\Project\\nhkProject\\build\\intermediates\\res\\merged\\debug\\drawable_menu_border_pressed.xml.flat",
+        "source": "D:\\Project\\nhkProject\\src\\main\\res\\drawable\\menu_border_pressed.xml"
+    },
+    {
+        "merged": "D:\\Project\\nhkProject\\build\\intermediates\\res\\merged\\debug\\anim_slide_out_right.xml.flat",
+        "source": "D:\\Project\\nhkProject\\src\\main\\res\\anim\\slide_out_right.xml"
+    },
+    {
+        "merged": "D:\\Project\\nhkProject\\build\\intermediates\\res\\merged\\debug\\anim_scale_down.xml.flat",
+        "source": "D:\\Project\\nhkProject\\src\\main\\res\\anim\\scale_down.xml"
+    },
+    {
+        "merged": "D:\\Project\\nhkProject\\build\\intermediates\\res\\merged\\debug\\layout_activity_webview.xml.flat",
+        "source": "D:\\Project\\nhkProject\\src\\main\\res\\layout\\activity_webview.xml"
+    },
+    {
+        "merged": "D:\\Project\\nhkProject\\build\\intermediates\\res\\merged\\debug\\layout_activity_display.xml.flat",
+        "source": "D:\\Project\\nhkProject\\src\\main\\res\\layout\\activity_display.xml"
+    },
+    {
+        "merged": "D:\\Project\\nhkProject\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_book_mark.png.flat",
+        "source": "D:\\Project\\nhkProject\\src\\main\\res\\drawable-xhdpi\\book_mark.png"
+    },
+    {
+        "merged": "D:\\Project\\nhkProject\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_book_mark_selected.png.flat",
+        "source": "D:\\Project\\nhkProject\\src\\main\\res\\drawable-xhdpi\\book_mark_selected.png"
+    },
+    {
+        "merged": "D:\\Project\\nhkProject\\build\\intermediates\\res\\merged\\debug\\anim_slide_out_bottom.xml.flat",
+        "source": "D:\\Project\\nhkProject\\src\\main\\res\\anim\\slide_out_bottom.xml"
+    },
+    {
+        "merged": "D:\\Project\\nhkProject\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_btn_back_bg.9.png.flat",
+        "source": "D:\\Project\\nhkProject\\src\\main\\res\\drawable-hdpi\\btn_back_bg.9.png"
+    },
+    {
+        "merged": "D:\\Project\\nhkProject\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_lv_bookmark.png.flat",
+        "source": "D:\\Project\\nhkProject\\src\\main\\res\\drawable-xhdpi\\lv_bookmark.png"
+    },
+    {
+        "merged": "D:\\Project\\nhkProject\\build\\intermediates\\res\\merged\\debug\\drawable_bg_next.xml.flat",
+        "source": "D:\\Project\\nhkProject\\src\\main\\res\\drawable\\bg_next.xml"
+    },
+    {
+        "merged": "D:\\Project\\nhkProject\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_lv_bookmark_in.png.flat",
+        "source": "D:\\Project\\nhkProject\\src\\main\\res\\drawable-xhdpi\\lv_bookmark_in.png"
+    },
+    {
+        "merged": "D:\\Project\\nhkProject\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_bookmark_in.png.flat",
+        "source": "D:\\Project\\nhkProject\\src\\main\\res\\drawable-xhdpi\\bookmark_in.png"
+    },
+    {
+        "merged": "D:\\Project\\nhkProject\\build\\intermediates\\res\\merged\\debug\\drawable_bg_edt.xml.flat",
+        "source": "D:\\Project\\nhkProject\\src\\main\\res\\drawable\\bg_edt.xml"
+    },
+    {
+        "merged": "D:\\Project\\nhkProject\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_folder.png.flat",
+        "source": "D:\\Project\\nhkProject\\src\\main\\res\\drawable-ldpi\\ic_folder.png"
+    },
+    {
+        "merged": "D:\\Project\\nhkProject\\build\\intermediates\\res\\merged\\debug\\drawable_bg_lvbookmark.xml.flat",
+        "source": "D:\\Project\\nhkProject\\src\\main\\res\\drawable\\bg_lvbookmark.xml"
+    },
+    {
+        "merged": "D:\\Project\\nhkProject\\build\\intermediates\\res\\merged\\debug\\layout_activity_top.xml.flat",
+        "source": "D:\\Project\\nhkProject\\src\\main\\res\\layout\\activity_top.xml"
+    },
+    {
+        "merged": "D:\\Project\\nhkProject\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_media_play.png.flat",
+        "source": "D:\\Project\\nhkProject\\src\\main\\res\\drawable-ldpi\\ic_media_play.png"
+    },
+    {
+        "merged": "D:\\Project\\nhkProject\\build\\intermediates\\res\\merged\\debug\\layout_activity_select.xml.flat",
+        "source": "D:\\Project\\nhkProject\\src\\main\\res\\layout\\activity_select.xml"
+    },
+    {
+        "merged": "D:\\Project\\nhkProject\\build\\intermediates\\res\\merged\\debug\\drawable_menu_border_disable.xml.flat",
+        "source": "D:\\Project\\nhkProject\\src\\main\\res\\drawable\\menu_border_disable.xml"
+    },
+    {
+        "merged": "D:\\Project\\nhkProject\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_menu_back.png.flat",
+        "source": "D:\\Project\\nhkProject\\src\\main\\res\\drawable-xhdpi\\ic_menu_back.png"
+    },
+    {
+        "merged": "D:\\Project\\nhkProject\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_before_in.png.flat",
+        "source": "D:\\Project\\nhkProject\\src\\main\\res\\drawable-xhdpi\\before_in.png"
+    },
+    {
+        "merged": "D:\\Project\\nhkProject\\build\\intermediates\\res\\merged\\debug\\drawable_bg_img_done.xml.flat",
+        "source": "D:\\Project\\nhkProject\\src\\main\\res\\drawable\\bg_img_done.xml"
+    },
+    {
+        "merged": "D:\\Project\\nhkProject\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_arrow.png.flat",
+        "source": "D:\\Project\\nhkProject\\src\\main\\res\\drawable-hdpi\\arrow.png"
+    },
+    {
+        "merged": "D:\\Project\\nhkProject\\build\\intermediates\\res\\merged\\debug\\drawable_menu_item.xml.flat",
+        "source": "D:\\Project\\nhkProject\\src\\main\\res\\drawable\\menu_item.xml"
+    },
+    {
+        "merged": "D:\\Project\\nhkProject\\build\\intermediates\\res\\merged\\debug\\drawable_button_item.xml.flat",
+        "source": "D:\\Project\\nhkProject\\src\\main\\res\\drawable\\button_item.xml"
+    },
+    {
+        "merged": "D:\\Project\\nhkProject\\build\\intermediates\\res\\merged\\debug\\menu_main.xml.flat",
+        "source": "D:\\Project\\nhkProject\\src\\main\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "D:\\Project\\nhkProject\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_seek_thumb_normal.png.flat",
+        "source": "D:\\Project\\nhkProject\\src\\main\\res\\drawable-hdpi\\seek_thumb_normal.png"
+    },
+    {
+        "merged": "D:\\Project\\nhkProject\\build\\intermediates\\res\\merged\\debug\\anim_slide_out_top.xml.flat",
+        "source": "D:\\Project\\nhkProject\\src\\main\\res\\anim\\slide_out_top.xml"
+    }
+]

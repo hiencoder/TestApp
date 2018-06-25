@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/llMenubottomId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="@color/bg_menu"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center" >
+
+            <TextView
+                android:id="@+id/itemSelectedId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/small_padding"
+                android:text="@string/no_item_selected"
+                android:textColor="@android:color/black" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/medium_padding"
+            android:layout_marginTop="@dimen/small_padding" >
+
+            <Button
+                android:id="@+id/selectAllId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="false"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/small_padding"
+                android:background="@drawable/menu_item"
+                android:padding="@dimen/small_padding"
+                android:text="@string/select_all"
+                android:textColor="@color/color_menu_text"
+                android:textSize="@dimen/small_size"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/newFolderId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="@drawable/menu_item"
+                android:paddingBottom="@dimen/small_padding"
+                android:paddingLeft="@dimen/smallest_padding"
+                android:paddingRight="@dimen/smallest_padding"
+                android:paddingTop="@dimen/small_padding"
+                android:text="@string/new_folder"
+                android:textColor="@color/color_menu_text"
+                android:textSize="@dimen/small_size"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/moveId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/small_padding"
+                android:background="@drawable/menu_item_disable"
+                android:paddingBottom="@dimen/small_padding"
+                android:paddingLeft="@dimen/smallest_padding"
+                android:paddingRight="@dimen/smallest_padding"
+                android:paddingTop="@dimen/small_padding"
+                android:text="@string/move"
+                android:textColor="@color/color_menu_text"
+                android:textSize="@dimen/small_size"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/cancelId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/medium_padding"
+                android:background="@drawable/menu_item"
+                android:padding="@dimen/small_padding"
+                android:text="@string/cancel"
+                android:textColor="@color/color_menu_text"
+                android:textStyle="bold"
+                android:visibility="gone" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rlDelete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/medium_padding" >
+
+            <Button
+                android:id="@+id/deselectAllId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/small_padding"
+                android:background="@drawable/menu_item"
+                android:padding="@dimen/small_padding"
+                android:text="@string/de_seselect"
+                android:textColor="@color/color_menu_text"
+                android:textSize="@dimen/small_size"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnChangeFileName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@+id/deselectAllId"
+                android:background="@drawable/menu_item_disable"
+                android:onClick="btnChangeFileNameOnClick"
+                android:paddingBottom="@dimen/small_padding"
+                android:paddingLeft="@dimen/smallest_padding"
+                android:paddingRight="@dimen/smallest_padding"
+                android:paddingTop="@dimen/small_padding"
+                android:text="@string/change_filename"
+                android:textColor="@color/color_menu_text"
+                android:textSize="@dimen/small_size"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/delelteId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/small_padding"
+                android:background="@drawable/menu_item_disable"
+                android:padding="@dimen/small_padding"
+                android:text="@string/delete"
+                android:textColor="@color/color_menu_text"
+                android:textSize="@dimen/small_size"
+                android:textStyle="bold" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</FrameLayout>

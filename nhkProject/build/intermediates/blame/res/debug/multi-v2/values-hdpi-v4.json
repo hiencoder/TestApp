@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\Project\\nhkProject\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-hdpi-v4\\values-hdpi-v4.xml",
+            "map": [
+                {
+                    "source": "D:\\Project\\nhkProject\\src\\main\\res\\values-hdpi\\dimens.xml",
+                    "from": {
+                        "startLines": "3,4,7",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "92,151,236",
+                        "endColumns": "57,55,48",
+                        "endOffsets": "145,202,280"
+                    },
+                    "to": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,113,169",
+                        "endColumns": "57,55,48",
+                        "endOffsets": "108,164,213"
+                    }
+                }
+            ]
+        }
+    ]
+}

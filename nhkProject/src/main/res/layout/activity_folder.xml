@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/rlTopId"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/top_height" >
+
+        <Button
+            android:id="@+id/beforeParentId"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="2dp"
+            android:background="@drawable/ic_menu_back"
+            android:onClick="backOnclick"
+            android:textColor="@color/green_dark"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/backOnclick"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/beforeParentId"
+            android:contentDescription="@string/app_name"
+            android:onClick="backOnclick"
+            android:src="@drawable/ic_menu_back" />
+
+        <TextView
+            android:id="@+id/folderName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/folder_process"
+            android:textSize="@dimen/large_size"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/actionId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="false"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/smallest_padding"
+            android:background="@drawable/menu_item_disable"
+            android:onClick="actionOnclick"
+            android:paddingBottom="@dimen/small_padding"
+            android:paddingLeft="@dimen/smallest_padding"
+            android:paddingRight="@dimen/smallest_padding"
+            android:paddingTop="@dimen/small_padding"
+            android:text="@string/action"
+            android:textColor="@color/color_menu_text"
+            android:textSize="@dimen/small_size"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/rlTopId"
+        android:background="#AAAAAA" >
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lvFolderId"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/menu_bottom"
+        android:layout_below="@+id/rlTopId" >
+    </ListView>
+
+    <jp.co.marinax.fileplayer.view.custom.MenuBottomUpCus
+        android:id="@+id/menu_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" >
+    </jp.co.marinax.fileplayer.view.custom.MenuBottomUpCus>
+
+</RelativeLayout>

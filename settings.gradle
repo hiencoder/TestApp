@@ -1,0 +1,2 @@
+include ':androidZip4j'
+include ':nhkProject'

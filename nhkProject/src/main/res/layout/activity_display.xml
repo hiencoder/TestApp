@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/llViewPagerId"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@android:color/transparent"
+        android:orientation="vertical" >
+
+        <jp.co.marinax.fileplayer.view.custom.DisplayActivityCustom
+            android:id="@+id/pager_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent" >
+
+            <jp.co.marinax.fileplayer.view.custom.MyViewPager
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+        </jp.co.marinax.fileplayer.view.custom.DisplayActivityCustom>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llNoText"
+        android:layout_width="fill_parent"
+        android:layout_height="300dp"
+        android:layout_centerInParent="true"
+        android:alpha="0.5"
+        android:contentDescription="@string/app_name"
+        android:gravity="center"
+        android:onClick="findTextOnClick" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/ic_book" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="@string/data_can_be_displayed"
+            android:textSize="25sp" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlTopId"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/top_height"
+        android:background="#22000000"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/imgvBack"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerVertical="true"
+            android:contentDescription="@string/app_name"
+            android:onClick="imgvBackOnclick"
+            android:src="@drawable/ic_menu_back" />
+
+        <ImageView
+            android:id="@+id/imgvMenuId"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+            android:contentDescription="@string/app_name"
+            android:onClick="MenuOnclick"
+            android:src="@drawable/ic_menu" />
+
+        <TextView
+            android:id="@+id/lessonName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/imgvMenuId"
+            android:layout_toRightOf="@+id/imgvBack"
+            android:gravity="center_horizontal"
+            android:text="@string/title"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/medium_size"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlProgressId"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/rlTopId"
+        android:background="#22000000" >
+
+        <SeekBar
+            android:id="@+id/seekBarPager"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:maxHeight="5dip"
+            android:paddingBottom="@dimen/small_padding"
+            android:paddingLeft="@dimen/padding_seekbar"
+            android:paddingRight="@dimen/padding_seekbar"
+            android:paddingTop="@dimen/small_padding"
+            android:thumb="@drawable/seek_thumb_normal" />
+
+        <TextView
+            android:id="@+id/tvPagerPosition"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="@string/rate"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlAudioId"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/top_height"
+        android:layout_alignParentBottom="true"
+        android:background="#22000000"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/playAndPause"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="false"
+            android:layout_centerVertical="true"
+            android:contentDescription="@string/app_name"
+            android:onClick="PlayOrPauseOnclick"
+            android:src="@drawable/ic_media_play" />
+
+        <SeekBar
+            android:id="@+id/seekBarMusic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="false"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/playAndPause"
+            android:background="@android:color/transparent"
+            android:maxHeight="4dip"
+            android:paddingBottom="@dimen/small_padding"
+            android:paddingLeft="@dimen/padding_seekbar"
+            android:paddingRight="@dimen/padding_seekbar"
+            android:paddingTop="@dimen/small_padding"
+            android:thumb="@drawable/seek_thumb_normal" />
+
+        <Button
+            android:id="@+id/noAudioId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/menu_item_border"
+            android:onClick="findAudioOnClick"
+            android:paddingBottom="@dimen/small_padding"
+            android:paddingTop="@dimen/small_padding"
+            android:text="@string/no_audio"
+            android:textColor="@color/green_dark"
+            android:textSize="@dimen/large_size"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+</RelativeLayout>

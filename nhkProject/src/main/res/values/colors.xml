@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="green_dark">#ff669900</color>
+    <color name="transparent_black">#77000000</color>
+    <color name="transparent_white">#77ffffff</color>
+
+    <drawable name="pressed">#C0C0C0</drawable>
+    <drawable name="normal">#ffffff</drawable>
+
+    <color name="color_grey_blur">#77777777</color>
+    <color name="pressed_color">#2F4F4F</color>
+    <color name="color_menu_text">#233E5A</color>
+    <color name="bg_menu">#808080</color>
+
+    <drawable name="imgv_press_color">#77777777</drawable>
+
+</resources>

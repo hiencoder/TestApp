@@ -1,0 +1,2 @@
+net.lingala.zip4j
+int string app_name 0x7f150001
